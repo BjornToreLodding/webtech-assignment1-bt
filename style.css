@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Black.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Italic.ttf) format('truetype');
+    font-weight: italic;
+}
+header {
+    background-color: #223;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;  /* Ensure it stays above other content */
+}
+footer {
+    background-color: #223;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;  /* Ensure it stays above other content */
+
+}
+body {
+    padding-top: 78px;
+    padding-bottom: 100px;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background: #fff; 
+
+}
+table {
+    border: none;
+    border-width: none;
+    width: 100%;
+}
+th {
+    border: none;
+    padding: 15px;
+    text-align: center;
+    background: #223;
+    color: #eee;
+}
+td {
+    border: none;
+
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    width: 80%;
+    text-align: center;
+    color: #999;
+}
